@@ -11,7 +11,9 @@ PopupActivity
  * 이 라이브러리를 사용하기 위해서는 상속 후 만드려는 액티비티의 속성을 PopupActivity로 바꿔주세요.
  * 예) public class MainActivity extends PopupActivity
  * 현재 팝업 액티비티 라이브러리로 커스텀 뷰를 포함한 액티비티 뷰를 만들 수 있습니다.
+ * 
  * 라이브러리를 사용하려고 하면, popupscreen라는 이름을 가진 RelativeLayout를 만들어주시고, 아래 소스를 넣어주세요.
+ * 
  * <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="300dip" // 크기 조절이 가능합니다
     android:layout_height="240dip" // 크기 조절이 가능합니다
