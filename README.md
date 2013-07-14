@@ -13,15 +13,16 @@ PopupActivity
  * 현재 팝업 액티비티 라이브러리로 커스텀 뷰를 포함한 액티비티 뷰를 만들 수 있습니다.
  * 
  * 라이브러리를 사용하려고 하면, popupscreen라는 이름을 가진 RelativeLayout를 만들어주시고, 아래 소스를 넣어주세요.
- * 
-   // <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  
+   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="300dip" // 크기 조절이 가능합니다
     android:layout_height="240dip" // 크기 조절이 가능합니다
     android:layout_centerInParent="true"
     android:id="@+id/popupscreen" >
     
     // 여기에 뷰를 넣어주세요. 텍스트 뷰나 에디트 뷰, 웹 뷰 등 액티비티 뷰라면 전부 가능합니다.
-   // </RelativeLayout>
+    </RelativeLayout>
+
  * 그리고 AndroidManifest.xml의 액티비티 속성에 아래 소스를 넣어주세요.
  *          android:configChanges="orientation|keyboardHidden"
             android:windowSoftInputMode="stateHidden"
